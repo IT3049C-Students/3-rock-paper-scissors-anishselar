@@ -21,7 +21,7 @@ function updateScoreTallyUI(){
 
 // updateGameHistoryUI
 function updateGameHistoryUI(){
-
+  gameHistoryParagraph.innerHTML = game.gameHistoryLog;
 }
 
 // start-game-button EventListener
