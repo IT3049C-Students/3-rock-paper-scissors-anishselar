@@ -15,7 +15,7 @@ let game;
 gameScreen.classList.add(`d-none`);
 
 // updateScoreTallyUI
-function updateScoreTallyUI(){
+function updateScoreTallyUI(){ 
   scoreParagraph.innerHTML = game.username + ": " + game.score.user + " v CPU: " + game.score.cpu;
 }
 
@@ -26,7 +26,7 @@ function updateGameHistoryUI(){
 
 // start-game-button EventListener
 startGameButton.addEventListener(`click`, function () {
-  game = new RockPaperScissors(userName);
+  game = new RockPaperScissors(userName.value);
   console.log("User clicked the start button");
   welcomeScreen.classList.add(`d-none`);
   gameScreen.classList.remove(`d-none`);
