@@ -64,7 +64,7 @@ class RockPaperScissors {
       this.score.cpu ++;
     }
 
-    
+    this.gameHistoryLog.push(`<br>${this.username} selected ${userSelection}, CPU selected ${CPUAnswer}: ${this.username} ${outcome}s.`);
 
   }
 
