@@ -38,6 +38,16 @@ class RockPaperScissors {
     if(userSelection == cpuSelection) {
       return "tie" ;
     }
+
+    else if((userSelection == "rock" && cpuSelection == "scissors") || 
+    (userSelection == "paper" && cpuSelection == "rock") || 
+    (userSelection == "scissors" && cpuSelection == "paper")){
+    return "win";
+    }
+
+    else { 
+      return "lose";
+    }
   }
 
   /**
