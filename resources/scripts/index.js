@@ -35,7 +35,9 @@ startGameButton.addEventListener(`click`, function () {
 
 // go-button EventListener
 goButton.addEventListener(`click`, function () {
-  
+  game.play(userSelection.value);
+  updateScoreTallyUI();
+  updateGameHistoryUI();
 });
 
 // If you're doing the extra-credit, uncomment the below: reset-game-button
