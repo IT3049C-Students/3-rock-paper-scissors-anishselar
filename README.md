@@ -5,7 +5,7 @@ Rock Paper Scissors - Group Assignment
 Instructions to this assignment can be found [here](https://it3049c.github.io/Material/Assignments/3.Rock_Paper_Scissors/).
 
 ## Checklist:
-- [x] update the assignment checks above to the correct link. - Done Automatically
+- [x] update the assignment checks above to the correct link - Done Automatically
 - [x] All tests are passing
 - [x] filled out the self-evaluation.
 - [x] filled out the self-reflection.
